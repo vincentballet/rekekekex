@@ -1,18 +1,28 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <meta charset="utf-8">
-  <title>Rekekekex</title>
-  <meta name="author" content="Vincent Ballet">
-  <meta name="description" content="Rekekekex">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Centered SVG Image</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #image-container {
+      width: 128px;
+      height: 128px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
 </head>
-
 <body>
-
-  <p>Greetings from Rekekekex 落</p>
-
+  <div id="image-container">
+    <img src="picture.svg" width="128" height="128" alt="SVG Image">
+  </div>
 </body>
-
 </html>
